@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:calibri,segoe ui,arial,tahoma,sans-serif;
+	}
+
+body{
+	background-color:#DDDDDD;
+	}
+
+#wrapper{
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+	
+header{
+	background: url(images/header.jpg) repeat-x #555;
+	height: 70px;
+	width: 100%;
+	padding: 5px;
+	margin: 20px 0;
+	overflow: hidden;}
+	
+header img{
+	width: 100px;
+	height: 40px;
+	}
+	
+#menu-utama{
+	margin-top: 3px;
+	list-style: none;}
+	
+#menu-utama li{
+	float: left;
+	padding: 8px 20px;
+	border-right: 1px solid #555555;
+	}
+
+#menu-utama li a{
+	color: #ffffff;
+	text-decoration: none;}
+	
+header form{
+	float:right;
+	margin-top:7px;
+	margin-right:10px;}
+	
+header form input{
+	border:none;
+	height:20px;}
+	
+#daftar-artikel{
+	width: 470px;
+	float: left;
+	}
+	
+article{
+	background: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	}
+	
+article img{
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+	height: 200px;
+	}
+	
+article b{
+	color: #616060;
+	background: #DDDDDD;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+	}
+	
+article p{
+	margin: 10px 0;
+	}
+	
+article a{
+	display: block;
+	text-align: right;
+	color: #636363;
+	}
+	
+#sidebar{
+	width: 270px;
+	float: right;
+	}
+	
+#sidebar h2{
+	font-size: 18px;
+	margin: 10px 0;
+	}
+	
+#sidebar p{
+	line-height: 20px;
+	color: #636363;
+	}
+	
+#sidebar ul li a{
+	color: #636363;
+	text-decoration: none;
+	}
+	
+footer{
+	clear: both;
+	margin: 20px 0;
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 5px;
+	color: #555555;
+	}
+	
+legend {
+	font-style:italic;
+	color:tomato;}
+input[type="text"] {
+	width: 120px;
+	border:1px solid grey;
+	padding: 2px;
+	outline: none;}
+input[type="email"] {
+	width: 120px;
+	border:1px dotted orange;
+	padding: 2px;
+	outline: none;}
+	
+input[type="nomer"] {
+	width: 120px;
+	border:1px dotted orange;
+	padding: 2px;
+	outline: none;}
+	
+input[type="submit"] {
+	border: 1px solid #006633;
+	background-color: #009966;
+	color: #FFFFFF;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;}
+	
+.title {
+	float: left;
+	width: 160px;
+	clear: left;}
+	
+.submit {
+	width: 310px;
+	text-align: left;}
